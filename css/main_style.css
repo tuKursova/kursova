@@ -1,0 +1,37 @@
+body{
+	background-color: black;
+	color: white;
+	margin: 0px auto;
+}
+
+.main_div {
+	width: 70%;
+	margin: 0px auto;
+	padding: 4px 0px 4px 0px;
+}
+
+@media all and (max-width:600px) {
+	ul.top_menu li:not(#hide_button) {
+		display: none;
+	}
+	.main_div {
+		width: 90%;
+	}
+}
+
+.main_div {
+	overflow-x: hidden;
+}
+
+.main_div[id='footer'] {
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.body_div {
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
