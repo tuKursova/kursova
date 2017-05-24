@@ -1,0 +1,17 @@
+.slideshow_image {
+	margin:0px auto;
+}
+
+.slideshow_image img {
+	position: relative;
+	margin: auto;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+
+.main_div[id='slide_show'] {
+	background-color: black;
+	color: white;
+	text-shadow: 2px 2px 3px white;
+	border: 1px solid white;
+}

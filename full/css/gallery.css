@@ -1,0 +1,33 @@
+.main_div .title_gallery {
+	text-transform: uppercase;
+	box-shadow: 3px 3px 8px #888888;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 8px;
+}
+
+/* Flog effect area */
+div[name='flog_effect'] {
+	left:0px;
+	top:0px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+div[name='flog_effect'] img {
+	position: fixed;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%);
+	width: 100%;
+	height: 100%;
+}
+/* End of flog effect */
+
+select {
+	background-image: none;
+	float: right;
+	border: 0px;
+}

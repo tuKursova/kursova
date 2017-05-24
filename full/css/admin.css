@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+}
+
+div.menu {
+	overflow: auto;
+}
+
+div.menu ul {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+div.menu li {
+	text-transform: uppercase;
+	list-style-type: none;
+	float:left;
+}
+
+div.main_part {
+	border: 2px solid black;
+	padding: 3px;
+	overflow: auto;
+}
+
+div.menu a {
+	background-color: black;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin-right: 4px;
+	padding: 5px;
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+div.menu a:hover {
+	background-color: grey;
+}
+
+div.content {
+	width: 70%;
+	margin: 0px auto;
+}
